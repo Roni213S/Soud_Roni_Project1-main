@@ -1,0 +1,49 @@
+@charset "UFT-8";
+/* CSS Doc */
+
+body {
+    background-color: rgb(157, 175, 244);
+    font-family: "oswald", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 450; /* ranges from 200-700 */
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 0;
+    font-size: 18px;
+    color: #161616;
+}
+
+.hidden {
+    display: none;
+}
+
+#container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 38px;
+    line-height: 45px;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1.5px 0 rgb(20, 107, 228);
+    font-weight: 900;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+h2 + p::first-letter {
+    color: white;
+    background-color: rgb(81, 105, 244);
+    border-radius: 7px;
+    box-shadow: 3px 3px 0 rgb(0, 0, 0);
+    font-size: 34px;
+    padding: 14px 6px;
+    margin-right: 8px;
+    float: left;
+}
