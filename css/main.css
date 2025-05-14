@@ -17,10 +17,22 @@ body {
     display: none;
 }
 
+img {
+    max-width: 50%;
+    border-radius: 50px;
+    border: 4px solid rgb(81, 105, 244);
+}
+
 #container {
-    width: 800px;
+    width: 700px;
     margin: 0 auto;
 }
+
+#container img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 h2 {
     font-family: 'Times New Roman', Times, serif;
@@ -46,4 +58,14 @@ h2 + p::first-letter {
     padding: 14px 6px;
     margin-right: 8px;
     float: left;
+}
+
+#healthy-drinks {
+    max-width: 25%;
+    height: auto;
+}
+
+#quench-bottle {
+    max-width: 25%;
+    height: auto;
 }
